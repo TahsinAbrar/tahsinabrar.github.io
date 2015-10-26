@@ -1,0 +1,26 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               "Tahsin Abrar's Blog"
+tagline:             ''
+description:         'A PHP Enthusiast. Interested in Cloud Computing, Software Design patterns and principles. Follow me on Twitter <a href="https://twitter.com/TahsinAbrar" target="_blank">@TahsinAbrar</a>.'
+url:                 http://tahsinabrar.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Tahsin Abrar
+  url:               https://twitter.com/TahsinAbrar
+  email:             abrar.cste@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+# Github repo
+github:
+  repo:              https://github.com/TahsinAbrar/tahsinabrar.github.io
