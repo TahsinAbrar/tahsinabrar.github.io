@@ -9,5 +9,5 @@ This blog is hosted in Github. And developed with Jekyll using [Lanyon](https://
 - <https://github.com/tahsinabrar>
 - <https://twitter.com/TahsinAbrar>
 
-**website : **
+**website :**
 <http://www.tahsinabrar.com>
