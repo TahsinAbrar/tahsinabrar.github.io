@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Change Server Name on Ubuntu
 ---
 

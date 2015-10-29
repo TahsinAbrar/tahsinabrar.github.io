@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Install LAMP Stack on Ubuntu
 ---
 
