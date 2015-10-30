@@ -8,8 +8,9 @@ relative_permalinks: true
 title:               "Tahsin Abrar's Blog"
 tagline:             ''
 description:         'A PHP Enthusiast. Interested in Cloud Computing, Software Design patterns and principles. Follow me on Twitter.'
-url:                 http://tahsinabrar.com
+url:                 http://tahsinabrar.github.io
 baseurl:             ''
+image:               https://googledrive.com/host/0B1rwm2Ee_JqOTHQzRlJSV1pfUm8
 paginate:            5
 
 # About/contact

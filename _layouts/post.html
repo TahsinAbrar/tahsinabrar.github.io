@@ -6,6 +6,28 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+
+  <br/>
+  <div class="container social-share">
+    <ul>
+      <li>
+        <div class="fb-like"
+            data-href="{{ page.url }}"
+            data-layout="button_count"
+            data-action="like"
+            data-show-faces="true"
+            data-share="true">
+        </div>
+      </li>
+      <li>
+        <a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet"></a>
+      </li>
+      <li>
+        <div class="g-plusone" data-annotation="inline" data-width="300"></div>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <div class="related">
