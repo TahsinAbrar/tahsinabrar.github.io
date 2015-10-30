@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               "Tahsin Abrar's Blog"
 tagline:             ''
-description:         'A PHP Enthusiast. Interested in Cloud Computing, Software Design patterns and principles. Follow me on Twitter <a href="https://twitter.com/TahsinAbrar" target="_blank">@TahsinAbrar</a>.'
+description:         'A PHP Enthusiast. Interested in Cloud Computing, Software Design patterns and principles. Follow me on Twitter.'
 url:                 http://tahsinabrar.com
 baseurl:             ''
 paginate:            5
