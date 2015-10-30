@@ -1,5 +1,6 @@
 /*import Play font from Google fonts*/
 @import url(https://fonts.googleapis.com/css?family=Play:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
 .sidebar-title {
   color: #F7F7F7;
@@ -11,7 +12,7 @@ ul.social-links li {
 }
 
 .social-share ul {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .social-share ul li {
   list-style: none;
@@ -20,4 +21,164 @@ ul.social-links li {
 }
 .social-share .fb-like span {
   vertical-align: baseline !important;
+}
+
+
+/* ******************
+    Resume Page CSS
+ ****************** */
+
+.page.resume {
+  margin-left: -10rem !important;
+}
+.resume {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  line-height: 18px;
+  font-size: 12px;
+  color: #222;
+}
+.resume h1, .resume h2, .resume h3, .resume h4 {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-family: 'Play', sans-serif;
+  font-weight: normal;
+}
+
+.resume p {
+  margin: 0 0 10px 0;
+}
+.resume a {
+  color: #222;
+}
+.resume strong {
+  font-family: 'Roboto', sans-serif;
+}
+/* ________________________________________________________ */
+.resume .rtl {
+  direction: rtl;
+}
+.clear {
+  clear: both;
+}
+
+.resume #main {
+  background: #f0f0f0;
+  width: 900px;
+  padding: 35px;
+  margin: 0 auto 15px auto;
+  overflow: hidden;
+  box-shadow: 0 0 6px #ccc;
+}
+
+.resume #title {
+  margin: 0px 0 30px 0;
+  line-height: 70px;
+  text-align: center;
+  color: #111;
+}
+
+.resume #credit {
+  margin-bottom: 20px;
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+}
+.resume #credit a {
+  color: #999;
+}
+
+.resume p label {
+  float: left;
+  margin-right: 10px;
+  min-width: 50px;
+}
+.resume p label span.colon {
+  float: right;
+}
+.resume p span.value {
+  float: left;
+  width: 70%;
+  display: block;
+}
+.resume .section {
+  margin-bottom: 40px;
+  padding-bttom: 20px;
+}
+.resume .item {
+  margin: 0 0 20px 0;
+}
+
+.resume .basic-info {
+  padding: 0px 0 0px 140px;
+}
+.resume .basic-info p {
+  float: left;
+  width: 48%;
+  margin: 0 0 0px 0;
+}
+.resume .basic-info p.full {
+  width: 100%;
+  float: none;
+}
+.resume .basic-info .r {
+  float: right;
+}
+
+/* education _____________________________ */
+.resume .section .title {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.resume .section span {
+  display: block;
+}
+.resume .section h3 span.l, .section span.r {
+  width: 49%;
+  float: left;
+}
+.resume .section span.r {
+  float: right;
+  text-align: right;
+}
+.resume .section-education .school,
+.resume .section-work .job_title {
+  font-size: 120%;
+  display: block;
+  margin: 5px 0 5px 0;
+}
+
+/* ___ photo ___ */
+.resume #photo {
+  width: 160px;
+  height: 200px;
+  overflow: hidden;
+  float: left;
+  margin-top: 12px;
+  border-radius: 4px;
+}
+.resume #photo img {
+  width: 100%;
+  height: auto;
+}
+
+.resume .header.photo {
+  margin-left: 190px;
+}
+.resume .header.photo #title {
+  text-align: left;
+}
+.resume .header.photo .basic-info {
+  float: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .resume #main {
+    box-shadow: none;
+    padding: 0;
+    padding: 5px;
+  }
 }
