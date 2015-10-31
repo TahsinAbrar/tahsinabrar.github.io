@@ -11,8 +11,11 @@ ul.social-links li {
   list-style: none;
 }
 
+.social-share {
+  display: inline-block;
+}
 .social-share ul {
-  /*overflow: hidden;*/
+  display: inline;
 }
 .social-share ul li {
   list-style: none;
