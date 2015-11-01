@@ -143,6 +143,10 @@ title: Working with Git - Git LifeHacks
 
   If you do `git add filename`, the file will be in stage. So, to remove the file from stage, run:
 
+  `git reset HEAD filename`
+
+  And then if you want to remove the changes of a single file, run:
+
   `git checkout filename`
 
 * #### Git Stash
