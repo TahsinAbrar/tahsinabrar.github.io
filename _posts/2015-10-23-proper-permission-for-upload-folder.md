@@ -10,7 +10,7 @@ title: Set Proper permission for upload folder
 
   But sometimes only giving `chmod 775 -R folders/path` and change ownership of the folder doesn't work when we're trying to upload a file to that `folders/path`. For this, we've to bind the apache `www-data` group with our user.
 
-Before telling how to bind the apache `www-data` group with our existing user, we can review the basic understanding of how to add new user/existing user to a group. If you've the basic understanding, <a href="#www-data"><mark>click here</mark></a> to skip it.
+Before telling how to bind the apache `www-data` group with our existing user, we can review the basic understanding of how to add new user/existing user to a group. If you've the basic understanding, <a href="#target"><mark>click here</mark></a> to skip it.
 
   * Change ownership of a folder: To change the ownership of the folder,
 
@@ -36,7 +36,7 @@ Before telling how to bind the apache `www-data` group with our existing user, w
 
   The user will need to logout and log back in to see their new group added.
 
-<div id="www-data"></div>
+<div id="target"></div>
 <br/>
   Now, after changing folder permission and changing ownership of the folder, if you can't upload files with the browser, change the folder ownership with apache `www-data` group :
 
