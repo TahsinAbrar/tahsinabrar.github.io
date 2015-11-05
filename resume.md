@@ -10,23 +10,14 @@ title: Resume
     <div class="header photo">
       <h1 id="title">Tahsin-Ul-Abrar</h1>
       <div class="basic-info section">
-        <p class="email">
+        <p>
           <label>E-mail<span class="colon">:</span></label>
           <span class="value">abrar.cste@gmail.com</span>
-        </p>
-        <p class="website">
           <label>Website<span class="colon">:</span></label>
           <span class="value">
-            <a href="http://www.tahsinabrar.com" rel="nofollow">http://www.tahsinabrar.com</a>
+            <a href="http://www.tahsinabrar.com">http://www.tahsinabrar.com</a>
+            <a href="http://tahsinabrar.github.io">http://tahsinabrar.github.io</a>
           </span>
-        </p>
-        <p class="phone">
-          <label>Phone<span class="colon">:</span></label>
-          <span class="value">+8801717538525</span>
-        </p>
-        <p class="address ">
-          <label>Address<span class="colon">:</span></label>
-          <span class="value">17, Heritage, Lake Circus Road,<br />Kalabagan<br />Dhaka-1205</span>
         </p>
         <div class="clear"> </div>
       </div><!-- basic-info //-->
