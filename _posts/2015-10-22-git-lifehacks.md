@@ -32,6 +32,10 @@ title: Working with Git - Git LifeHacks
 
 * To show the changes that you made after the last commit, run : `git diff`
 
+* To show the changes which have been staged, run : `git diff --cached` or `git status -v`
+
+* To show all the changes from HEAD which have been staged and also which have been not committed yet, run : `git diff HEAD`
+
 * To show all the previous commits in terminal, run: `git log`
 
 * To show all the previous commits messages only in terminal , run:
