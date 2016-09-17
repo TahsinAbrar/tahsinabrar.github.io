@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:               "Tahsin Abrar's Blog"
@@ -11,7 +11,9 @@ description:         'A PHP Enthusiast. Interested in Cloud Computing, Software 
 url:                 http://tahsinabrar.github.io
 baseurl:             ''
 image:               https://googledrive.com/host/0B1rwm2Ee_JqOTHQzRlJSV1pfUm8
+gems:                [jekyll-paginate]
 paginate:            5
+paginate_path:       "page:num"
 
 # About/contact
 author:
