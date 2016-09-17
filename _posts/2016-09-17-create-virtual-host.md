@@ -32,5 +32,6 @@ If you create a new file in `/etc/apache2/sites-available` directory, then you n
 
 > `sudo a2ensite project.dev.conf`
 
-By the way, if you didn't enable `htaccess` in apache yet, then:
+By the way, if you didn't enable rewrite mode for using `htaccess` in apache yet, then:
+
 > `sudo a2enmod rewrite`
