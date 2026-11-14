@@ -1,13 +1,9 @@
-# Tahsin Abrar's Blog
+# Tahsin Abrar
 
-This blog is hosted in Github. And developed with Jekyll using [Lanyon](https://github.com/poole/lanyon) theme.
+Source for [tahsinabrar.com](https://tahsinabrar.com), a personal portfolio and technical blog.
 
+Built with Next.js, TypeScript, Tailwind CSS and MDX, and published as a static site on GitHub Pages.
 
-## Author
+## License
 
-**Tahsin Abrar**
-- <https://github.com/tahsinabrar>
-- <https://twitter.com/TahsinAbrar>
-
-**website :**
-<http://www.tahsinabrar.com>
+See [LICENSE.md](LICENSE.md).

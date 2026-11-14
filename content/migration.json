@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Setting up Ubuntu for Web Development",
+    "date": "2015-10-20",
+    "oldUrl": "/2015/10/20/setting-up-ubuntu-for-web-development/",
+    "newUrl": "/blog/setting-up-ubuntu-for-web-development/",
+    "slug": "setting-up-ubuntu-for-web-development"
+  },
+  {
+    "title": "Working with Git - Git LifeHacks",
+    "date": "2015-10-22",
+    "oldUrl": "/2015/10/22/git-lifehacks/",
+    "newUrl": "/blog/git-lifehacks/",
+    "slug": "git-lifehacks"
+  },
+  {
+    "title": "Set Proper permission for upload folder",
+    "date": "2015-10-23",
+    "oldUrl": "/2015/10/23/proper-permission-for-upload-folder/",
+    "newUrl": "/blog/proper-permission-for-upload-folder/",
+    "slug": "proper-permission-for-upload-folder"
+  },
+  {
+    "title": "Install LAMP Stack on Ubuntu",
+    "date": "2015-10-27",
+    "oldUrl": "/2015/10/27/install-lamp-on-ubuntu/",
+    "newUrl": "/blog/install-lamp-on-ubuntu/",
+    "slug": "install-lamp-on-ubuntu"
+  },
+  {
+    "title": "Using MySQL database via CLI",
+    "date": "2015-10-28",
+    "oldUrl": "/2015/10/28/using-mysql-database-via-cli/",
+    "newUrl": "/blog/using-mysql-database-via-cli/",
+    "slug": "using-mysql-database-via-cli"
+  },
+  {
+    "title": "File Permission for project release",
+    "date": "2015-10-29",
+    "oldUrl": "/2015/10/29/file-permission-for-product-release/",
+    "newUrl": "/blog/file-permission-for-product-release/",
+    "slug": "file-permission-for-product-release"
+  },
+  {
+    "title": "Change Server Name on Ubuntu",
+    "date": "2015-10-30",
+    "oldUrl": "/2015/10/30/change-server-name-on-ubuntu/",
+    "newUrl": "/blog/change-server-name-on-ubuntu/",
+    "slug": "change-server-name-on-ubuntu"
+  },
+  {
+    "title": "Create Laravel Project in an existing directory on Ubuntu",
+    "date": "2015-11-18",
+    "oldUrl": "/2015/11/18/create-laravel-project-in-existing-directory/",
+    "newUrl": "/blog/create-laravel-project-in-existing-directory/",
+    "slug": "create-laravel-project-in-existing-directory"
+  },
+  {
+    "title": "Create Virtual Host on Ubuntu",
+    "date": "2016-09-17",
+    "oldUrl": "/2016/09/17/create-virtual-host/",
+    "newUrl": "/blog/create-virtual-host/",
+    "slug": "create-virtual-host"
+  }
+]

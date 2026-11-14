@@ -40,3 +40,19 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
+
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+playwright-report/
+test-results/
+.playwright-cli/
+output/playwright/
+
+# Local project specifications and Claude instructions (all directories)
+docs/
+*[sS][pP][eE][cC]*.[mM][dD]
+[cC][lL][aA][uU][dD][eE].[mM][dD]
+
+AGENTS.md

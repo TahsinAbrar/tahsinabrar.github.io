@@ -1,0 +1,39 @@
+{
+  "name": "tahsinabrar-guild",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack && node --import tsx scripts/postbuild.ts",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.*",
+    "verify": "node --import tsx scripts/verify-output.ts",
+    "preview": "python3 -m http.server 3000 --directory out"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "gray-matter": "4.0.3",
+    "lucide-react": "^0.468.0",
+    "next": "16.4.6",
+    "next-mdx-remote": "6.0.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "rehype-highlight": "7.0.2",
+    "remark-gfm": "4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "axe-core": "^4.14.0",
+    "cheerio": "^1.2.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "16.4.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.18",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
